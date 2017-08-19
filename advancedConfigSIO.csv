@@ -1,0 +1,9 @@
+Username,IPs,Password,Operating System,Is MDM/TB,MDM Mgmt IP,MDM IPs,MDM Name,perfProfileForMDM,Is SDS,SDS Name,SDS All IPs,SDS-SDS Only IPs,SDS-SDC Only IPs,Protection Domain,Fault Set,SDS Device List,StoragePool List,SDS Device Names,RFCache,RFCache Device List,RFCache Pool List,perfProfileForSDS,Is SDC,perfProfileForSDC,SDC Name
+root,,P@ssw0rd,linux,Master,172.30.227.182,"""10.1.1.11,20.1.1.11""",mdm1,High,Yes,gwmdm1sds1,"""192.168.210.211,172.17.210.211""",,,PD1,,"""/dev/sdb,/dev/sdc""",SSDPOOL1,"""sdb,sdcf""",,,,High,No,High,
+root,,P@ssw0rd,linux,Slave,172.30.227.203,"""10.1.1.12,20.1.1.12""",mdm2,High,Yes,mdm2sds2,"""192.168.210.212,172.17.210.212""",,,PD1,,"""/dev/sdb,/dev/sdc""",SSDPOOL1,"""sdb,sdcf""",,,,High,No,High,
+root,,P@ssw0rd,linux,TB,,"""10.1.1.13,20.1.1.13""",mdm3,High,Yes,tbsds3,"""192.168.210.213,172.17.210.213""",,,PD1,,"""/dev/sdb,/dev/sdc""",SSDPOOL1,"""sdb,sdcf""",,,,High,No,High,
+root,,P@ssw0rd,linux,,,"""10.1.1.14,20.1.1.14""",,High,Yes,sds4,"""192.168.210.214,172.17.210.214""",,,PD1,,"""/dev/sdb,/dev/sdc""",SSDPOOL1,"""sdb,sdcf""",,,,High,No,High,
+root,,P@ssw0rd,linux,,,"""10.1.1.15,20.1.1.15""",,High,Yes,sds5,"""192.168.210.215,172.17.210.215""",,,PD1,,"""/dev/sdb,/dev/sdc""",SSDPOOL1,"""sdb,sdcf""",,,,High,No,High,
+root,,P@ssw0rd,linux,,,"""10.1.1.16,20.1.1.16""",,High,Yes,sds6,"""192.168.210.216,172.17.210.216""",,,PD1,,"""/dev/sdb,/dev/sdc""",SSDPOOL1,"""sdb,sdcf""",,,,High,No,High,
+root,,P@ssw0rd,linux,,,"""10.1.1.17,20.1.1.17""",,High,Yes,sds7,"""192.168.210.217,172.17.210.217""",,,PD1,,"""/dev/sdb,/dev/sdc""",SSDPOOL1,"""sdb,sdcf""",,,,High,No,High,
+root,,P@ssw0rd,linux,,,"""10.1.1.18,20.1.1.18""",,High,Yes,sds8,"""192.168.210.218,172.17.210.218""",,,PD1,,"""/dev/sdb,/dev/sdc""",SSDPOOL1,"""sdb,sdcf""",,,,High,No,High,
